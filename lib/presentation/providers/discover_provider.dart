@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+
 import 'package:flutter_tik_tok/domain/entities/video_post.dart';
-import 'package:flutter_tik_tok/infrastructure/models/local_video_model.dart';
+import 'package:flutter_tik_tok/infrastructure/models/local_videos_model.dart';
 import 'package:flutter_tik_tok/shared/data/local_video_post.dart';
 
 class DiscoverProvider extends ChangeNotifier {
